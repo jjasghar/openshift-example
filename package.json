@@ -1,0 +1,13 @@
+{
+  "name": "docker_hello_world",
+  "version": "1.0.0",
+  "description": "Simple Hello-World app in Docker",
+  "author": "JJ Asghar <jjasghar@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
