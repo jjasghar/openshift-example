@@ -52,6 +52,15 @@ oc expose svc/hello-world
 oc status
 ```
 
+## Add a GitHub Webhook
+
+Say you want to edit the "code" change it from `Hello World` to `Hello <event you are at>` adding a webhook is the way to go.
+
+1. Click `Builds > Overview` scroll down to `Webhooks` copy (with secret) the GitHub hook. It may not respond, but try to `Paste` in another window to see that it works.
+
+2. Open up your repository to the GitHub Webhooks. `Add Webhook` then paste the URL into `Payload URL` and change `Content type` to JSON. `Add webhook` and confirm you have the GREEN checkmark.
+
+
 ## License & Authors
 
 If you would like to see the detailed LICENSE click [here](LICENSE).
